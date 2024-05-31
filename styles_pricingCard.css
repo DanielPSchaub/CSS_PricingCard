@@ -1,0 +1,105 @@
+/* Daniel Schaub, Front-end Mentor 'Pricing Card' Challenge, May 2024 */
+html {
+	box-sizing:border-box;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	overflow-x:hidden;
+}
+
+.container{
+	width:60vw;
+	border-radius:15px;
+	overflow:hidden;
+	box-shadow: 3px 3px 10px -1px rgba(0,0,0,0.75);
+}
+
+.topRectangle{
+	padding:10px;
+	width:100%;
+}
+
+.topRectangle h2{
+	color:#2ab2af;
+}
+.topRectangle h4{
+	color:#c0df34;
+}
+.topRectangle p{
+	color:gray;
+}
+
+.botRectangle{
+	width:100%;
+	display: flex;
+	color:white;
+}
+
+.square{
+	padding:10px;
+	width:50%;
+}
+
+#leftBox{
+	background-color:#2ab2af;
+}
+
+#leftBox h3{
+	margin-bottom:0px;
+}
+
+#priceLine{
+	display:flex;
+	margin-bottom:-20px;
+}
+
+#priceLine h2{
+	font-weight:700;
+}
+
+#priceLine p{
+	padding-top:5%;
+	padding-left:5%;
+	opacity:.7;
+}
+
+#underPriceLine{
+	padding-bottom: 8px;
+}
+
+button{
+	width:100%;
+	padding:15px;
+	background-color:#c0df34;
+	color:white;
+	font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+	font-size:16px;
+	border-radius:5px;
+	box-shadow: 3px 3px 10px -1px rgba(0,0,0,0.75);
+}
+
+button:hover{
+	cursor:pointer;
+	transform:scale(1.01);
+	background-color:white;
+	color:#c0df34;
+}
+
+#rightBox{
+	background-color:#2EBFBD;
+}
+
+ul{
+	list-style-type:none;
+}
